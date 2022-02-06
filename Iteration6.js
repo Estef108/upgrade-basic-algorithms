@@ -1,12 +1,12 @@
 //1.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
-for (x = 0; x <= 9; x++) {
+for (let x = 0; x <= 9; x++) {
     console.log(x);
 }
 
 /*1.2 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola solo 
 cuando el resto del numero dividido entre 2 sea 0.*/
-for (x = 0; x <= 9; x++) {
-    if (x % 2 == 0) {
+for (let x = 0; x <= 9; x++) {
+    if (x % 2 === 0) {
         console.log(x);
     }
 }
@@ -22,3 +22,13 @@ while (i < 10){
     i++;
 } 
 console.log( i + " Dormido!");
+
+//--//
+
+// for (let i = 0; i < 10; i++) {
+//     if (i === 9) {
+//       console.log("Dormido!");
+//     } else {
+//       console.log("Intentando dormir");
+//     }
+//   }

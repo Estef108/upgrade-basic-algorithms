@@ -1,14 +1,10 @@
-//1.1 1.1 Dado el siguiente javascript, cambia el valor de la propiedad age a 25.
+//1.1 Dado el siguiente javascript, cambia el valor de la propiedad age a 25.
 
 const character = {name: 'Jack Sparrow', age: 10};
-const character = {
-    name: "Jack Sparrow",
-    age: 10
-};
 
 character.age = 25;
 
-//1.2Declara 3 variables con los nombres y valores siguientes
+//1.2 Declara 3 variables con los nombres y valores siguientes
 
 let firstName = "Jon",
     lastName = "Snow",
@@ -28,7 +24,7 @@ const toy2 = {
     price: 29
 }
 
-const suma = toy1.price + toy2.price;
+const suma = "El precio total de los dos juguetes es " + (toy1.price + toy2.price);
 console.log(suma);
 
 /*1.4 Dado el siguiente javascript, actualiza el valor de la variable globalBasePrice a 25000 
